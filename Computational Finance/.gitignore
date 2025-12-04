@@ -1,0 +1,24 @@
+# Ignore data folder
+Data/
+test_idea/
+
+
+# Ignore common data files
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.feather
+
+# Ignore model outputs
+models/
+*.h5
+*.pt
+*.pth
+
+# Ignore environment files
+.env
